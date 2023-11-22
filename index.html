@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculador de gorjeta</title>
+</head>
+
+<body>
+    <h1>calculador de Gorjeta</h1>
+    <div class="calculator">
+        <label for="billAmount">Valor da conta:</label>
+        <input type="number" id="billAmount" placeholder="Insira o valor da conta"><br>
+
+        <label for="tipPercentage">Porcentagem de Gorjeta:</label>
+        <select id="tipPercentage">
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+        </select><br>
+
+        <label for="numPeople">Número de pessoas:</label>
+        <input type="number" id="numPeople" placeholder="Insira o número de pessoas"><br>
+
+    <button onclick="calculateTip()">Calcular Gorjeta</button>
+
+        <div id="results"></div>
+    </div>
+  <script src="js.js"></script>
+
+    <footer><p>TRABALHO FEITO POR: MANOEL VITOR DE CASTRO</p></footer>
+
+    <div class= texto>
+    <h1 id="myElement">SOBRE O TRABALHO</h1>
+    <p>temos o calculo feito em javascript utilizando if / for </p><br>
+    <p>temos a junção do css com o js para fazer a animação do titulo deste texto</p><br>
+    <p>a função deste site é calcular a gorjeta de um certo valor. contendo a porcentagem de gorjeta,
+       o valor total, e o numero de pessoas em q esta gorjeta e o total serão dividos</p>
+    <p>espero que tenha gostado ainda estou aprendendo :) </p>
+</div>
+</body>
+</html>

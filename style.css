@@ -1,0 +1,99 @@
+body{
+    background: rgb(11, 116, 117);
+    background: linear-gradient(90deg, rgba(11, 116, 117, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    
+}
+h1{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,116,117,1) 100%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: American Typewriter, serif;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.botao{
+    text-align: center;
+}
+.calculator {
+    color: #fff;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,116,117,1) 100%);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+select, input, select, button{
+    color: #fff;
+    background: transparent;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+button:hover, select:hover, input:hover {
+  background-color: rgb(65, 65, 65);
+  color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dfdfdf;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,116,117,1) 100%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: American Typewriter, serif;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.texto{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,116,117,1) 100%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: American Typewriter, serif;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+
